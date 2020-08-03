@@ -10,7 +10,6 @@ salary double(8,2)
 );
 
 .tables
-
 .schema student
 
 insert into student values(10,'abc',4500);
