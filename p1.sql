@@ -13,12 +13,12 @@ salary double(8,2)
 
 .schema student
 
-insert into student values(10,'shivang',4500);
+insert into student values(10,'abc',4500);
 select * from student;
 
 select "************************";
 
-insert into student values(20, 'disha', 3000), (30,'dhruv',4000);
+insert into student values(20, 'xyz', 3000), (30,'pqr',4000);
 select * from student;
 select "************************";
 
@@ -31,7 +31,7 @@ delete from student where id = 30;
 select * from student;
 select "************************";
 
-replace into student values(30,'dhruv',4000);
+replace into student values(30,'pqr',4000);
 select * from student;
 select "************************";
 
