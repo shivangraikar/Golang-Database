@@ -52,7 +52,3 @@ select * from student where rno in (13,19,16);
 
 SELECT * FROM STUDENT WHERE NAME LIKE  '%IT%';
 SELECT * FROM STUDENT WHERE NAME LIKE  'A%';
-
-
-
-
