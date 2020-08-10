@@ -3,6 +3,7 @@ import fmt
 import database/sql
 import _"github.com/mattn/go-sqlite3"
 
+
 func main()
 {
 con, e1:= sql.open("sqlite3", "st1.db")
