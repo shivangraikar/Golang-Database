@@ -19,7 +19,6 @@ if available >= wanted {
 wg.Done()
 }
 
-
 func main() {
 fmt.Println("work started")
 fmt.Println("initial available= ", available)
