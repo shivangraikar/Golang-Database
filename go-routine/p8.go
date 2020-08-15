@@ -25,6 +25,7 @@ fmt.Println("music ended")
 done2 <- true
 }
 
+
 func main() {
 go music()
 go write()
