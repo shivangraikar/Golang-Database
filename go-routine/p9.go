@@ -1,7 +1,6 @@
 package main
 import "fmt"
 
-
 var done1 = make(chan int)
 var done2 = make(chan int)
 
