@@ -4,6 +4,7 @@ import "time"
 var data = []int{}
 var dpo = make (chan bool)
 
+
 func producer() {
 	for i:=1 ; i <= 5; i++ {
 		data = append(data, i)
